@@ -138,3 +138,14 @@ variable "session_name" {
   description = "The session name for assuming role through STS"
   default     = ""
 }
+
+variable "AWS_ACCESS_KEY_ID" {
+  type        = string
+  description = "AWS Access Key"
+  default = null
+}
+variable "AWS_SECRET_ACCESS_KEY" {
+  type        = string
+  description = "AWS Secret Access Key"
+  default = null
+}
