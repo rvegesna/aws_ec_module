@@ -1,5 +1,5 @@
 region = "us-east-1"
-instance-type = "t2.micro"
+instance-type = "t2.medium"
 ami-id = "ami-0b5eea76982371e91"
 key-name = "devops"
 environment = "Prodcution"
