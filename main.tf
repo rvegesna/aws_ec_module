@@ -10,8 +10,7 @@ associate-public-ip = false
 vpc-id = "vpc-03f49828acdc3cb32"
 instance-count = 1
 root-volume-size = 40
-kms-key-id = "arn:aws:kms:us-east-1:544937704320:key/df8cf025-4da0-4904-9395-a86
-b345c8b7f"
+kms-key-id = "arn:aws:kms:us-east-1:544937704320:key/df8cf025-4da0-4904-9395-a86b345c8b7f"
 user_data = "${file("init.sh")}"
 availability-zones = ["us-east-1b"]
 az-to-subnet-mapping= {
@@ -43,8 +42,7 @@ associate-public-ip = false
 vpc-id = "vpc-03f49828acdc3cb32"
 instance-count = 1
 root-volume-size = 40
-kms-key-id = "arn:aws:kms:us-east-1:544937704320:key/df8cf025-4da0-4904-9395-a86
-b345c8b7f"
+kms-key-id = "arn:aws:kms:us-east-1:544937704320:key/df8cf025-4da0-4904-9395-a86b345c8b7f"
 user_data = "${file("init.sh")}"
 availability-zones = ["us-east-1b"]
 az-to-subnet-mapping= {
