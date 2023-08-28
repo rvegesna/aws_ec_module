@@ -8,7 +8,7 @@ resource "aws_instance" "ec2-instance" {
   key_name                    = var.key-name 
   vpc_security_group_ids = var.vpc-security-group-ids
   associate_public_ip_address = var.associate-public-ip
-  user_data                   = var.user-data
+  #user_data                   = var.user-data
   iam_instance_profile        = var.instance-profile-name
   ebs_optimized               = var.ebs_optimized 
   monitoring                  = var.enable-detailed-monitoring
