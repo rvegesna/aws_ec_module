@@ -10,8 +10,8 @@
 #   this is for testing
 provider "aws" {
   region     = "us-east-1" 
-  access_key = "AKIAX5YGRPOAJKJIDSMK"
-  secret_key = "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"
+  access_key = "AKIAX5YGRPOAO2OK3OFU"
+  secret_key = "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"
   #assume_role {
    # role_arn = "arn:aws:iam::544937704320:role/ra-assume"
    # session_name = "ec2"
